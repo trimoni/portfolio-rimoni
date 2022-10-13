@@ -1,5 +1,7 @@
-function Resume() {
+const Resume = () => {
   return (
-      <h1>Resume</h1>
-  )
+    <h3>hello</h3>
+  );
 }
+
+export default Resume;

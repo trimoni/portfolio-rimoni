@@ -1,5 +1,7 @@
-function Contact() {
+const Contact = () => {
   return (
-      <h1>Contact</h1>
-  )
+    <h3>Hello</h3>
+  );
 }
+
+export default Contact;

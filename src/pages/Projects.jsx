@@ -1,5 +1,7 @@
-function Project() {
+const Projects = () => {
   return (
-      <h1>Project</h1>
-  )
+    <h3>Hello</h3>
+  );
 }
+
+export default Projects;
