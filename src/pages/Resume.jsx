@@ -1,6 +1,9 @@
 const Resume = () => {
   return (
-    <h3>hello</h3>
+    <>
+      <h3>Download Resume</h3>
+      <a href="TalRimoniResume.pdf" download>Resume</a>
+    </>
   );
 }
 

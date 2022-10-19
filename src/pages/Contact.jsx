@@ -1,6 +1,11 @@
 const Contact = () => {
   return (
-    <h3>Hello</h3>
+    <>
+      <h1>Please Contact Me!</h1>
+      <div> <a href='https://github.com/trimoni'>Github</a></div>
+      <div>Email</div>
+      <div> <a href='https://www.linkedin.com/in/talrimoni/'>LinkedIn</a></div>
+    </>
   );
 }
 
