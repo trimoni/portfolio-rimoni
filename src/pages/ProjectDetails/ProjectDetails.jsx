@@ -8,11 +8,11 @@ const ProjectDetails = () => {
   const project = findProject(location.pathname)
   return (
     <>
-    <h1>Colorful Connect Four</h1>
-    <p>ColorFul Connect Four is basically Connect Four but Colorful</p>
+    <h1>{project.title}</h1>
+    <p>{project.description}</p>
     <img src={project.image} alt="connect four" />
     <br />
-    <button><a href='https://github.com/trimoni/Connect-Four-Unit-1.git'>GitHub</a></button>
+    <button><a href={project.repositoryLink}>GitHub</a></button>
     <button>Website</button>
     </>
   );
