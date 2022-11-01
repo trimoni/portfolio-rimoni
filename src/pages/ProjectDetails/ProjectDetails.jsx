@@ -1,4 +1,3 @@
-import { projects } from "../../data/projects";
 import findProject from "../../utilities/findProject";
 import { useLocation } from "react-router-dom";
 

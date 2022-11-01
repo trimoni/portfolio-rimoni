@@ -1,0 +1,22 @@
+.container {
+  background-color: #B7CEEC;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.container ul {
+  margin: 0;
+  width: 90%;
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.container li {
+  margin-left: 35px;
+  text-align: right;
+}
