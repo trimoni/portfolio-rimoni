@@ -13,7 +13,7 @@ const ProjectDetails = () => {
     <img src={project.image} alt="connect four" />
     <br />
     <button><a href={project.repositoryLink}>GitHub</a></button>
-    <button>Website</button>
+    <button><a href={project.depositoryLink}>Website</a></button>
     </>
   );
 }

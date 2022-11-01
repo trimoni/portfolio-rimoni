@@ -21,6 +21,14 @@ const projects = [
   image: '/event-planner.jpg',
   repositoryLink: 'https://github.com/trimoni/Event-Planning.git',
   depositoryLink: 'https://eventplanner-rimoni.fly.dev/'
+},
+
+{
+  title: 'myProps',
+  description: `Management website to manage properties and tenants`,
+  image: '/myProps.jpg',
+  repositoryLink: 'https://github.com/trimoni/myProps-front-end.git',
+  depositoryLink: 'https://myprops.netlify.app/'
 }
 ]
 
