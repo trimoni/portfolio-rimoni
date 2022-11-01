@@ -28,7 +28,7 @@ const projects = [
   description: `Management website to manage properties and tenants`,
   image: '/myProps.jpg',
   repositoryLink: 'https://github.com/trimoni/myProps-front-end.git',
-  depositoryLink: 'https://myprops.netlify.app/'
+  depositoryLink: 'https://mypropsmanagement.netlify.app/'
 }
 ]
 
