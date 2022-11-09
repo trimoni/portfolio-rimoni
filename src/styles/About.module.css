@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Dosis', sans-serif;
+}
+
+.container p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 14em;
+  font-size: 30px;
+  text-align: center;
+}
