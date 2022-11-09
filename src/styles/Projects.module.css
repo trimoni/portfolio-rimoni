@@ -27,3 +27,13 @@ section {
   text-align: center;
   font-size: 20px;
 }
+
+img {
+  height: 400px;
+  width: 400px;
+}
+
+.container main {
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
