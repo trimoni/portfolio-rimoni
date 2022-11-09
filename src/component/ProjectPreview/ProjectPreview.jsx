@@ -1,5 +1,6 @@
 import hyphenateWords from "../../utilities/hyphenateWords";
 import { Link } from "react-router-dom";
+import { Animated } from "react-animated-css";
 
 const ProjectPreview = (props) => {
   const path = hyphenateWords(props.title);
@@ -11,7 +12,9 @@ const ProjectPreview = (props) => {
       <section>
         <h3>{props.title}</h3>
         <Link to={path}>
-          <button>Learn more</button>
+        <Animated animationIn="bounce" animationOut="fadeOut" isVisible={true}>
+          <button>INFO</button>
+        </Animated>
         </Link>
       </section>
     </main>

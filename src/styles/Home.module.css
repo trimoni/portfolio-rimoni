@@ -6,17 +6,16 @@
   font-family: 'Dosis', sans-serif;
 }
 
-.container p {
-  margin-left: auto;
-  margin-right: auto;
-  width: 14em;
-  font-size: 30px;
-  text-align: center;
+.container h1 {
+  width: fit-content;
+  margin-top: 250px;
+  font-size: 120px;
+  border: 5px solid black;
+  border-radius: 45px;
+  background-color: red;
 }
 
-.container h2 {
-  margin-top: -10px;
-}
+
 
 
 
