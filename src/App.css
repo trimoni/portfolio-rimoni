@@ -2,3 +2,7 @@ img {
   height: 300px;
   width: 350px
 }
+
+main {
+  height: 100vh;
+}

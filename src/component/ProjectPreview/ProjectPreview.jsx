@@ -5,19 +5,18 @@ import { Animated } from "react-animated-css";
 const ProjectPreview = (props) => {
   const path = hyphenateWords(props.title);
   return (
-    <main>
+      <section>
       <div>
         <img src={props.image} alt={props.title} />
-      </div>
-      <section>
         <h3>{props.title}</h3>
         <Link to={path}>
-        <Animated animationIn="bounce" animationOut="fadeOut" isVisible={true}>
-          <button>INFO</button>
+        <Animated >
+          <button animationIn="bounce" animationOut="fadeOut" isVisible={true}>INFO</button>
         </Animated>
         </Link>
+        </div>
       </section>
-    </main>
+    
   );
 };
 
