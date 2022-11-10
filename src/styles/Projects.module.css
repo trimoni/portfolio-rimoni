@@ -24,6 +24,7 @@
   font-weight: bold;
   margin-left: 120px;
   font-size: 20px;
+  font-family: 'Dosis', sans-serif;
 }
 
 button:hover {
@@ -50,4 +51,10 @@ section {
   border: solid 5px orange;
   background-color: orange;
   border-radius: 50px;
+  font-family: 'Dosis', sans-serif;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
 }
