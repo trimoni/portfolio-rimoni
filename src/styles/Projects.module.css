@@ -15,7 +15,7 @@
   align-content: space-between;
 }
 
-button {
+.container button {
   color: purple;
   background-color: pink;
   border-radius: 25px;
@@ -35,9 +35,10 @@ section {
   font-size: 20px;
 }
 
-img {
+.container img {
   height: 400px;
   width: 400px;
+  border: solid 10px hotpink;
 }
 
 .container main {

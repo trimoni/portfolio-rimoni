@@ -1,0 +1,17 @@
+.container main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+.container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Dosis', sans-serif;
+}

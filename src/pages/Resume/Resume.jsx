@@ -1,9 +1,9 @@
-// import styles from '/styles/Resume.module.css'
+import styles from '../Resume/Resume.module.css'
 
 
 const Resume = () => {
   return (
-    <main>
+    <main className={styles.container}>
       <embed 
         type="application/pdf"
         src="./resume.pdf"
