@@ -45,7 +45,7 @@ img {
   margin-bottom: 50px;
 }
 
-h3 {
+.container h3 {
   border: solid 5px orange;
   background-color: orange;
   border-radius: 50px;

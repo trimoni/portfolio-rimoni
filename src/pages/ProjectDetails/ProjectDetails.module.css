@@ -1,0 +1,16 @@
+.container {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  padding: 28px 21px;
+  align-items: center;
+  flex-direction: column;
+  background-color: indianred;
+}
+
+.container button  {
+  margin-left: 20px;
+}
+
+
+
