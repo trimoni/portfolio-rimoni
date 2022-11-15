@@ -11,10 +11,10 @@ const ProjectDetails = () => {
       <p>{project.description}</p>
       <img src={project.image} alt="connect four" />
       <br />
-      <button>
+      <button className="btn btn-info">
         <a href={project.repositoryLink}>GitHub</a>
       </button>
-      <button>
+      <button className="btn btn-light">
         <a href={project.depositoryLink}>Website</a>
       </button>
     </body>
