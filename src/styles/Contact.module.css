@@ -41,7 +41,7 @@ form {
   max-width: 50vw;
 }
 
-.form-group label {
+.formgroup label {
   color: #f7f3ee;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -57,42 +57,39 @@ form {
   width: 50vw;
 }
 
-.btn-submit {
+.button {
   width: 50vw;
   height: 5vh;
-  background-color: #88fce1;
-  color: #654bfb;
   margin-top: 13px;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  /* border: #f7f3ee 2px solid;  */
   transition-duration: .2s;
 }
 
-.btn-submit:hover {
+.button:hover {
   /* background-color: #d0fdf2; */
   transform: scale(1.08);
   /* background-color: #dcbbf8; */
   /* color:#fd4d93; */
 }
 
-.contact-body {
+.contactbody {
   background-color: #7f69ff;
 }
 
-.contact-wrapper {
+.contactwrapper {
   top: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: #7f69ff;
+  background-color: rgb(22, 175, 114);
 }
 
 
-.contact-links {
-  background-color: #7f69ff;
+.contactlinks {
   /* margin-left: 80px; */
   max-width: 60vw;
   max-height: 10vh;
@@ -105,9 +102,7 @@ form {
 
 }
 
-
-
-.contact-links i {
+.contactlinks i {
   padding: 0 5px 30px 0;
   display: flex;
   flex-wrap: wrap;
@@ -123,11 +118,11 @@ form {
   margin-left: 30px;
 }
 
-.contact-links i:hover {
+.contactlinks i:hover {
   /* color: #a1fde7; */
   transform: scale(1.09);
 }
 
-.contact-links a:hover {
+.contactlinks a:hover {
   text-decoration: none;
 }
