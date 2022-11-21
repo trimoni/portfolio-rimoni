@@ -1,4 +1,4 @@
-.container main {
+/* .container main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,4 +14,120 @@
   justify-content: center;
   align-items: center;
   font-family: 'Dosis', sans-serif;
+} */
+
+.contacttext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  margin-top: 67px;
+  max-width: 70vw;
+  text-align: center;
+  color: navy;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 50vw;
+}
+
+.form-group label {
+  color: #f7f3ee;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+#name,
+#email,
+#textarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+}
+
+.btn-submit {
+  width: 50vw;
+  height: 5vh;
+  background-color: #88fce1;
+  color: #654bfb;
+  margin-top: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  /* border: #f7f3ee 2px solid;  */
+  transition-duration: .2s;
+}
+
+.btn-submit:hover {
+  /* background-color: #d0fdf2; */
+  transform: scale(1.08);
+  /* background-color: #dcbbf8; */
+  /* color:#fd4d93; */
+}
+
+.contact-body {
+  background-color: #7f69ff;
+}
+
+.contact-wrapper {
+  top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #7f69ff;
+}
+
+
+.contact-links {
+  background-color: #7f69ff;
+  /* margin-left: 80px; */
+  max-width: 60vw;
+  max-height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-flow: row wrap;
+
+}
+
+
+
+.contact-links i {
+  padding: 0 5px 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 20vh;
+  font-size: 5vh;
+  text-align: center;
+  background-color: #7f69ff;
+  color: #FFFFFF;
+  margin-left: 30px;
+}
+
+.contact-links i:hover {
+  /* color: #a1fde7; */
+  transform: scale(1.09);
+}
+
+.contact-links a:hover {
+  text-decoration: none;
 }
