@@ -54,14 +54,14 @@ const Contact = () => {
           </div>
         </form>
       </div>
-      <div class="contact-links">
-        <h4></h4>
-        <a href="https://www.linkedin.com/in/beryl-baldwin/" target="_blank">
-          <i class="devicon-linkedin-plain"></i>
-        </a>
-        <a href="https://github.com/berylrb" target="_blank">
-          <i class="devicon-github-original"></i>
-        </a>
+
+      <div className={styles.contactlinks}>
+      <div>
+        <a className="btn btn-warning btn-lg" href="https://github.com/trimoni">Github</a>
+      </div>
+      <div>
+        <a className="btn btn-primary btn-lg" href="https://www.linkedin.com/in/talrimoni/">LinkedIn</a>
+      </div>
       </div>
     </div>
   );

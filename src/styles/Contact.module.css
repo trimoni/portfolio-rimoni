@@ -91,9 +91,12 @@ form {
 
 .contactlinks {
   /* margin-left: 80px; */
-  max-width: 60vw;
-  max-height: 10vh;
+  /* max-width: 60vw; */
+  /* max-height: 10vh; */
+  margin-top: 40px;
+  margin-right: 0px;
   display: flex;
+  text-align: center;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -119,7 +122,6 @@ form {
 }
 
 .contactlinks i:hover {
-  /* color: #a1fde7; */
   transform: scale(1.09);
 }
 
