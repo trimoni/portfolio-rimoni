@@ -1,5 +1,6 @@
 import styles from "../styles/Contact.module.css";
-import { Button } from "bootstrap";
+import github from "../assets/github.svg";
+import linkedin from "../assets/linkedin.svg";
 
 const Contact = () => {
   return (
@@ -8,7 +9,7 @@ const Contact = () => {
         <h2 className={styles.contact}>Let's connect!</h2>
         <h4 className={styles.contact}>
           Questions, greetings, burning confessions? Whatever you've got to say,
-          I'd lvoe to hear from you.
+          I'd love to hear from you.
         </h4>
       </div>
       <div className={styles.contactwrapper}>
@@ -56,12 +57,16 @@ const Contact = () => {
       </div>
 
       <div className={styles.contactlinks}>
-      <div>
-        <a className="btn btn-warning btn-lg" href="https://github.com/trimoni">Github</a>
-      </div>
-      <div>
-        <a className="btn btn-primary btn-lg" href="https://www.linkedin.com/in/talrimoni/">LinkedIn</a>
-      </div>
+        <div>
+          <a href="https://github.com/trimoni">
+            <img src={github} alt="" className={styles.image} />
+          </a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/talrimoni/">
+            <img src={linkedin} alt="" className={styles.image} />
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -8,10 +8,6 @@ function NavBar() {
         <li>
           <Link to="/">Tal Rimoni</Link>
         </li>
-    
-        <li>
-          <Link to="/about">About</Link>
-        </li>
 
         <li>
           <Link to="/projects">Projects</Link>

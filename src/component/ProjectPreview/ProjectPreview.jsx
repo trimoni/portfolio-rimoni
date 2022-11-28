@@ -7,7 +7,7 @@ import styles from './ProjectPreview.module.css'
 const ProjectPreview = (props) => {
   const path = hyphenateWords(props.title);
   return (
-    <>
+    <body>
       <Card className={styles.card}>
         <Card.Img variant='top' src={props.image} alt={props.title} className={styles.cardImg}/>
           <Card.Body>
@@ -27,7 +27,7 @@ const ProjectPreview = (props) => {
         </Link>
       
         </Card>
-    </>
+    </body>
   );
 };
 
