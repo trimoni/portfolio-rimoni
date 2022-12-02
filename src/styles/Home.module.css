@@ -7,6 +7,9 @@
   text-align: center;
 }
 
+.line {
+  background: linear-gradient(#000, #000) no-repeat center/2px 100%;
+}
 .container {
   /* display: flex;
   justify-content: center;
