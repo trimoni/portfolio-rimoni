@@ -1,22 +1,38 @@
+/* Include padding and border in total box size*/
+* {
+  box-sizing: border-box;
+}
+
+.align {
+  text-align: center;
+}
+
 .container {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
   font-family: 'Dosis', sans-serif;
 }
 
-.container p {
-  margin-left: auto;
-  margin-right: auto;
-  width: 14em;
+.paragraph {
+  /* text-align: right; */
+  float: right;
+  width: 45%;
+  padding: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  height: 475px;
+  margin: 30px;
+  line-height:2;
   font-size: 30px;
-  text-align: center;
-  padding: 30px;
 }
 
 .container img {
   border-radius: 50%;
+  margin-left: 200px;
+  height: 400px;
+  width: 500px;
 }
 
 .container h2 {
@@ -24,7 +40,9 @@
   text-decoration: underline;
 }
 
-
+.container h3 {
+  font-style: italic;
+}
 
 
 
