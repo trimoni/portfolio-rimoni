@@ -7,19 +7,24 @@
   text-align: center;
 }
 
-.line {
-  background: linear-gradient(#000, #000) no-repeat center/2px 100%;
+.skills {
+  text-align: center;
+  padding-bottom: 80px;
 }
+
+.line {
+  background: linear-gradient(#000, #000) no-repeat center/2px 80%;
+}
+
 .container {
-  /* display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; */
+  flex-direction: column;
   font-family: 'Dosis', sans-serif;
 }
 
 .paragraph {
-  /* text-align: right; */
   float: right;
   width: 45%;
   padding: 40px;
@@ -41,10 +46,13 @@
 .container h2 {
   font-size: 65px;
   text-decoration: underline;
+  font-weight: 900;
 }
 
 .container h3 {
   font-style: italic;
+  font-weight: 900;
+  font-size: 35px;
 }
 
 
