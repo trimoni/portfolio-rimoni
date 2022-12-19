@@ -12,8 +12,9 @@ const ProjectPreview = (props) => {
         <Card.Img variant='top' src={props.image} alt={props.title} className={styles.cardImg}/>
           <Card.Body>
             <Card.Title className={styles.cardTitle}>{props.title}</Card.Title>
+            <Card.Text>{props.description}</Card.Text>
           </Card.Body>
-        <Link to={path}>
+        {/* <Link to={path}>
           <Animated>
             <button
               animationIn="bounce"
@@ -24,7 +25,7 @@ const ProjectPreview = (props) => {
               INFO
             </button>
           </Animated>
-        </Link>
+        </Link> */}
       
         </Card>
     </body>
