@@ -41,9 +41,9 @@ const projects = [
 
 {
   title: 'Wordle',
-  description: `A MERN Stack application collecting Pokemon Cards using Python & Django`,
-  image: '/pokemoncollector.png',
-  repositoryLink: 'https://github.com/trimoni/pokemon-card-collector.git',
+  description: `Made with HTML, CSS, JS`,
+  image: '/wordle.png',
+  repositoryLink: 'https://github.com/trimoni/wordle-js.git',
   depositoryLink: 'https://wordle-free.netlify.app/'
 }
 ]
