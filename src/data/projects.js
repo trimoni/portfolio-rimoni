@@ -41,7 +41,7 @@ const projects = [
 
 {
   title: 'Wordle',
-  description: `HTML, CSS, JS`,
+  description: `HTML, CSS & JavaScript`,
   image: '/wordle.png',
   repositoryLink: 'https://github.com/trimoni/wordle-js.git',
   depositoryLink: 'https://wordle-free.netlify.app/'
