@@ -27,6 +27,10 @@ body {
   font-family: 'Dosis', sans-serif;
 }
 
+.cardDesc {
+  text-align: center;
+}
+
 .card div {
   text-decoration: underline;
 }
