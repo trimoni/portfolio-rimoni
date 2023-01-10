@@ -50,7 +50,6 @@ const Home = () => {
           <img src={AWS} alt="AWS"/>
           <img src={Azure} alt="Azure"/>
           <img src={GoogleCloud} alt="GoogleCloud"/>
-
         </div>
       </div>
     </main>
