@@ -1,6 +1,13 @@
 import Tal from "../assets/Tal.jpg";
 import styles from "../styles/Home.module.css";
 import AWS from '../assets/amazonaws.svg'
+import Bootstrap from '../assets/bootstrap.svg'
+import CSS from '../assets/css3.svg'
+import Django from '../assets/django.svg'
+import Express from '../assets/express.svg'
+import Github from '../assets/github.svg'
+import GoogleCloud from '../assets/googlecloud.svg'
+import HTML from '../assets/html5.svg'
 
 
 const Home = () => {
