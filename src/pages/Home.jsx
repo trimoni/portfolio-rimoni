@@ -8,7 +8,12 @@ import Express from '../assets/express.svg'
 import Github from '../assets/github.svg'
 import GoogleCloud from '../assets/googlecloud.svg'
 import HTML from '../assets/html5.svg'
-
+import Javascript from '../assets/javascript.svg'
+import Azure from '../assets/microsoftazure.svg'
+import Mongo from '../assets/mongodb.svg'
+import Node from '../assets/nodedotjs.svg'
+import SQL from '../assets/postgresql.svg'
+import React from '../assets/react.svg'
 
 const Home = () => {
   return (
