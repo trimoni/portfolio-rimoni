@@ -1,5 +1,7 @@
 import Tal from "../assets/Tal.jpg";
 import styles from "../styles/Home.module.css";
+import AWS from '../assets/amazonaws.svg'
+
 
 const Home = () => {
   return (
