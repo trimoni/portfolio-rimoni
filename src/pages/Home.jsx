@@ -35,21 +35,21 @@ const Home = () => {
       <div>
         <h3 className={styles.skills}>Skills</h3>
         <div className={styles.icons}>
-          <img src={HTML}/>
-          <img src={CSS}/>
-          <img src={Javascript}/>
-          <img src={React}/>
-          <img src={Python}/>
-          <img src={SQL}/>
-          <img src={Django}/>
-          <img src={Github}/>
-          <img src={Node}/>
-          <img src={Mongo}/>
-          <img src={Express}/>
-          <img src={Bootstrap}/>
-          <img src={AWS}/>
-          <img src={Azure}/>
-          <img src={GoogleCloud}/>
+          <img src={HTML} alt="HTML"/>
+          <img src={CSS} alt="CSS"/>
+          <img src={Javascript} alt="Javascript"/>
+          <img src={React} alt="React"/>
+          <img src={Python} alt="Python"/>
+          <img src={SQL} alt="SQL"/>
+          <img src={Django} alt="Django"/>
+          <img src={Github} alt="Github"/>
+          <img src={Node} alt="Node"/>
+          <img src={Mongo} alt="Mongo"/>
+          <img src={Express} alt="Express"/>
+          <img src={Bootstrap} alt="Bootstrap"/>
+          <img src={AWS} alt="AWS"/>
+          <img src={Azure} alt="Azure"/>
+          <img src={GoogleCloud} alt="GoogleCloud"/>
 
         </div>
       </div>
