@@ -55,5 +55,19 @@
   font-size: 35px;
 }
 
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icons img {
+  height: 55px;
+  width: 55px;
+  margin: 0 auto;
+  padding: 5px;
+
+}
 
 

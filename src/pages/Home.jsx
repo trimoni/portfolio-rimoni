@@ -14,6 +14,7 @@ import Mongo from '../assets/mongodb.svg'
 import Node from '../assets/nodedotjs.svg'
 import SQL from '../assets/postgresql.svg'
 import React from '../assets/react.svg'
+import Python from '../assets/python.svg'
 
 const Home = () => {
   return (
@@ -33,6 +34,24 @@ const Home = () => {
       </div>
       <div>
         <h3 className={styles.skills}>Skills</h3>
+        <div className={styles.icons}>
+          <img src={HTML}/>
+          <img src={CSS}/>
+          <img src={Javascript}/>
+          <img src={React}/>
+          <img src={Python}/>
+          <img src={SQL}/>
+          <img src={Django}/>
+          <img src={Github}/>
+          <img src={Node}/>
+          <img src={Mongo}/>
+          <img src={Express}/>
+          <img src={Bootstrap}/>
+          <img src={AWS}/>
+          <img src={Azure}/>
+          <img src={GoogleCloud}/>
+
+        </div>
       </div>
     </main>
   );
