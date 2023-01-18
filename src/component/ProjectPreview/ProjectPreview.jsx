@@ -17,7 +17,7 @@ const ProjectPreview = (props) => {
               <button className="btn btn-info">
               <a href={props.repositoryLink}>GitHub</a>
               </button>
-              <button className="btn btn-light">
+              <button className="btn btn-success">
               <a href={props.depositoryLink}>Website</a>
             </button>
             </div>
