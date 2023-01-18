@@ -13,6 +13,14 @@ const ProjectPreview = (props) => {
           <Card.Body>
             <Card.Title className={styles.cardTitle}>{props.title}</Card.Title>
             <Card.Text className={styles.cardDesc}>{props.description}</Card.Text>
+            <div className={styles.link}>
+              <button className="btn btn-info">
+              <a href={props.repositoryLink}>GitHub</a>
+              </button>
+              <button className="btn btn-light">
+              <a href={props.depositoryLink}>Website</a>
+            </button>
+            </div>
           </Card.Body>
         {/* <Link to={path}>
           <Animated>

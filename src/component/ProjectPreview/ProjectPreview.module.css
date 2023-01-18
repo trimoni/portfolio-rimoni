@@ -54,3 +54,8 @@ button:hover {
   background-color: blue;
   box-shadow: 1px 1px 6px 4px black;
 }
+
+.link {
+  text-align: center;
+  padding: 1px;
+}
