@@ -22,7 +22,7 @@ const ProjectPreview = (props) => {
             </button>
             </div>
           </Card.Body>
-        {/* <Link to={path}>
+        <Link to={path}>
           <Animated>
             <button
               animationIn="bounce"
@@ -33,7 +33,7 @@ const ProjectPreview = (props) => {
               INFO
             </button>
           </Animated>
-        </Link> */}
+        </Link>
       
         </Card>
     </body>
