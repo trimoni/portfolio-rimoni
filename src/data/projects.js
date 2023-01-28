@@ -51,7 +51,8 @@ const projects = [
   title: 'Hat-Shop',
   description: `React & CSS`,
   image: 'hat.jpg',
-  
+  repositoryLink: 'https://github.com/trimoni/shopping-cart-react.git',
+  depositoryLink: 'https://ralph-lauren-hat-store.netlify.app/'
 }
 ]
 
