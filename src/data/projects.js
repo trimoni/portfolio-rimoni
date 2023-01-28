@@ -48,6 +48,9 @@ const projects = [
 },
 
 {
+  title: 'Hat-Shop',
+  description: `React & CSS`,
+  image: 'hat.jpg',
   
 }
 ]
